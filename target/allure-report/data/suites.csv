@@ -1,0 +1,9 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 21 12:23:25 IST 2025","Mon Jul 21 12:23:43 IST 2025","18079","","Urban Ladder shopping and filtering experience","","Search and view Being At Home categories","","Search and view Being At Home categories",""
+"passed","Mon Jul 21 12:23:15 IST 2025","Mon Jul 21 12:23:25 IST 2025","9608","","Urban Ladder shopping and filtering experience","","View top 3 study chairs","","View top 3 study chairs",""
+"passed","Mon Jul 21 12:24:09 IST 2025","Mon Jul 21 12:24:40 IST 2025","30973","","Urban Ladder shopping and filtering experience","","View social media links from footer","","View social media links from footer",""
+"passed","Mon Jul 21 12:22:28 IST 2025","Mon Jul 21 12:23:15 IST 2025","47473","","Urban Ladder shopping and filtering experience","","Filter bookshelves by storage type, price, and availability","","Filter bookshelves by storage type, price, and availability","  As a user of the Urban Ladder website
+  I want to browse, filter, and purchase items
+  So that I can find products that match my preferences"
+"passed","Mon Jul 21 12:24:40 IST 2025","Mon Jul 21 12:24:50 IST 2025","10681","","Filter and display showcase items on Urban Ladder","","User filters showcases by closed storage type and excludes out-of-stock items","","User filters showcases by closed storage type and excludes out-of-stock items",""
+"passed","Mon Jul 21 12:23:43 IST 2025","Mon Jul 21 12:24:09 IST 2025","26008","","Urban Ladder shopping and filtering experience","","Add Being At Home item to cart and proceed to checkout","","Add Being At Home item to cart and proceed to checkout",""

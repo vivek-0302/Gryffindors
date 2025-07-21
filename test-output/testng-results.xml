@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-10T11:46:44 IST" name="Default suite" finished-at="2025-07-10T11:48:11 IST" duration-ms="86653">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-10T11:46:44 IST" name="Default test" finished-at="2025-07-10T11:48:11 IST" duration-ms="86653">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:46:44 IST" name="setUpClass" finished-at="2025-07-10T11:46:45 IST" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e83992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:46:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-10T11:47:00 IST" duration-ms="15292" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter bookshelves by storage type, price, and availability"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:385)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy24.get(Unknown Source)
+at com.urbanLadder.pages.BookShelves.displayNamesandPrices(BookShelves.java:111)
+at StepDefinitions.BookShelvesDefinition.i_should_see_the_top_bookshelves_displayed_with_their_names_and_prices(BookShelvesDefinition.java:78)
+at ✽.I should see the top 3 bookshelves displayed with their names and prices(file:///C:/Users/2407279/eclipse-workspace/DisplayBookshelves/src/test/resources/features/01_BookShelves.feature:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:47:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-10T11:47:09 IST" duration-ms="8512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View top 3 study chairs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:47:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-10T11:47:17 IST" duration-ms="8723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search and view Being At Home categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:47:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-10T11:47:39 IST" duration-ms="21496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Being At Home item to cart and proceed to checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:47:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-10T11:48:11 IST" duration-ms="31997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View social media links from footer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Urban Ladder shopping and filtering experience"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@158a8276]" started-at="2025-07-10T11:48:11 IST" name="tearDownClass" finished-at="2025-07-10T11:48:11 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
